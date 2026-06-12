@@ -1,0 +1,12 @@
+/* Efeito de brilho de fundo sutil para parecer um sistema de alta tecnologia */
+body {
+    background-image: 
+        radial-gradient(circle at 10% 20%, rgba(16, 185, 129, 0.05) 0%, transparent 40%),
+        radial-gradient(circle at 90% 80%, rgba(245, 158, 11, 0.05) 0%, transparent 40%);
+    background-attachment: fixed;
+}
+
+/* Transições suaves para a troca de modos */
+.transition-all {
+    transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+}
